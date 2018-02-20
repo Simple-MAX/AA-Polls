@@ -142,7 +142,8 @@
     margin: auto;
     margin-bottom: 10px;
     width: 100%;
-
+    
+    font-family: url(gunplay.otf);
     text-align: center;
     font-size: 32px;
     font-weight: 300;

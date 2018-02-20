@@ -96,7 +96,7 @@ function loadPoll() {
     if (currentPoll.info_text != "") {
         // Gets the info text paragraph element
         let infoText = getElement("poll-info-text");
-
+        
         // Sets info text
         infoText.innerHTML = currentPoll.info_text;
     } else {

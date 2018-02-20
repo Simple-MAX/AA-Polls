@@ -1,0 +1,72 @@
+﻿<!DOCTYPE HTML>
+<html lang="sv">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="../../css/main.css" />
+
+        <title>Logga in</title>
+
+        <script type="text/javascript" src="../../js/networking/backend.js"></script>
+        <script type="text/javascript" src="../../js/networking/config.js"></script>
+        <script type="text/javascript" src="../../js/navigation/navigation.js"></script>
+        <script type="text/javascript" src="../../js/navigation/config.js"></script>
+        <script type="text/javascript" src="../../js/misc/table.js"></script>
+        <script type="text/javascript" src="../../js/misc/element.js"></script>
+        <script type="text/javascript" src="../../js/listener/config.js"></script>
+        <script type="text/javascript" src="../../js/listener/listener.js"></script>
+        <script type="text/javascript" src="../../js/user/config.js"></script>
+        <script type="text/javascript" src="../../js/user/manage.js"></script>
+        <script type="text/javascript" src="../../js/user/auth.js"></script>
+        <script type="text/javascript" src="../../js/core/store.js"></script>
+        <script type="text/javascript" src="../../js/core/index.js"></script>
+        <script type="text/javascript" src="../../js/localize/config.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="nav-main inverted admin-panel">
+                    <div class="nav-container">
+                        <div class="nav-logo-container inverted">
+                            <h1>Mental hälsa</h1>
+                            <h4>Administrationpanel</h4>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="wrapper">
+                <hr class="regular-spacing" />
+
+                <div class="login-form">
+                    <input class="textbox" type="text" placeholder="Email address" id="email" required />
+
+                    <hr class="short-spacing" />
+
+                    <input class="textbox" type="password" placeholder="Ditt lösenord" id="password" required />
+
+                    <hr class="regular-spacing" />
+                    
+                    <button 
+                        class="regular-button"
+                        type="submit" 
+                        id="login-submit"
+                    >Logga in</button>
+                </div>
+                <button 
+                        class="regular-button"
+                        type="submit" 
+                        id="en"
+                    >en</button>
+                    <button 
+                        class="regular-button"
+                        type="submit" 
+                        id="se"
+                    >se</button>
+            </div>  
+        </main>
+    </body> 
+</html> 

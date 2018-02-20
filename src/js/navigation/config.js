@@ -22,6 +22,11 @@ const Pages = {
     CreatePoll: "create-poll"
 };
 
+const Directory = {
+    EN: "en",
+    SV: "sv"
+}
+
 const INITIAL_PANEL_PAGE = Pages.Users;
 
 const DEFAULT_TAB_DATA = [["Tab", "index.html"]];

@@ -30,7 +30,7 @@
 }
 
 .poll-info-button {
-    position: absolute;
+    position: inherit;
     top: 0;
     right: 0;
 

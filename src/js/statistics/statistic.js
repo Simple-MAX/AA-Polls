@@ -426,8 +426,8 @@ function getGroupStats(group) {
             // Creates a new option element
             let option = createElement("option");
             
-            // Sets option value to poll id
-            option.innerHTML = option.value = selectedGroup.polls[i].id;
+            // Sets option value to poll title
+            option.innerHTML = option.value = selectedGroup.polls[i].title;
 
             // Appends option to user polls picker
             pollPicker.add(option);
